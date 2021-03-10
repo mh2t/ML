@@ -3,8 +3,6 @@ library(glmnet)
 library(tidyverse)
 library(caret)
 
-setwd("/Users/2t/Desktop/Wells Fargo")
-
 train.data  <- read.csv("newTrain_C.csv", header = T)
 test.data <- read.csv("newTest_C.csv", header = T)
 
