@@ -1,7 +1,8 @@
-# Machine Learning Projects
+# Machine Learning Projects 
+
+### Credit
 The Credit folder contains Jupyter Notebooks for Credit Assessment Analysis.  
 
-### Codes
 [PreProcess.ipynb](https://github.com/mh2t/ML/blob/main/Credit/PreProcess.ipynb). 
 - pre-processing step on the input data. 
 
