@@ -21,4 +21,4 @@ The Credit folder contains Jupyter Notebooks for Credit Assessment Analysis.
 
 
 # Production
-The Production folder contains a machine learning API ([API.ipynb](https://github.com/mh2t/ML/blob/main/Credit/API.ipynb)) in Python that takes a saved model ([model.pkl](https://github.com/mh2t/ML/blob/main/Credit/model.pkl)) and an file ([test.csv](https://github.com/mh2t/ML/blob/main/Credit/test.csv)) as inputs and after doing pre-processing and feature engineering, it returns the prediction of class **1** in probability.  
+The Production folder contains a machine learning API ([API.ipynb](https://github.com/mh2t/ML/blob/main/Credit/API.ipynb)) in Python that takes a saved model ([model.pkl](https://github.com/mh2t/ML/blob/main/Credit/model.pkl)) and an file ([test.csv](https://github.com/mh2t/ML/blob/main/Credit/test.csv)) as inputs and after doing pre-processing and feature engineering, it returns the probability of class of **1** in a vector format.  
