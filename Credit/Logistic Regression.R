@@ -12,14 +12,14 @@ range01 <- function(x){(x-min(x))/(max(x)-min(x))}
 
 # build the training set
 drops <- c("Def_ind")
-xx <- as.matrix(train.data[ , !(names(train.data) %in% drops)])
-x = apply(xx[,-c(14:17)],2,range01)
+mat.train <- as.matrix(train.data[ , !(names(train.data) %in% drops)])
+x = apply(mat.train[,-c(14:17)],2,range01)
 x = cbind(x,train.data[,c(14:17)])
 y <- as.matrix(train.data[,c("Def_ind")])
 
 # build the test set
-xx2 <- as.matrix(test.data[ , !(names(test.data) %in% drops)])
-x.test = apply(xx2[,-c(14:17)],2,range01)
+mat.test <- as.matrix(test.data[ , !(names(test.data) %in% drops)])
+x.test = apply(mat.test[,-c(14:17)],2,range01)
 x.test = cbind(x.test,test.data[,c(14:17)])
 y.test <- as.matrix(test.data[,c("Def_ind")])
 
